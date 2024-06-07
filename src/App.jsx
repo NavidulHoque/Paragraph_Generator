@@ -32,7 +32,8 @@ function App() {
       setnumberofParagraph("")
     }
 
-    else{
+    else if (value >= 1 && value <= 9) {
+
       setnumberofParagraph(Number(value))
     }
   }
